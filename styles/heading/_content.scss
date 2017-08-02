@@ -1,16 +1,13 @@
 @mixin base() {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
     margin: 0 auto;
-    margin-top: 12rem;
-    padding: 1rem;
+    padding: 3rem;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 992px) {
+        display: flex;
         flex-direction: row;
-        margin-top: 12rem;
         max-width: 1200px;
-        padding: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
