@@ -8,6 +8,10 @@
     @media all and (min-width: 768px) {
         margin-bottom: 0;
     }
+
+    &:hover {
+        background-color: #158A93;
+    }
 }
 
 &__option {
